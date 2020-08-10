@@ -34,7 +34,7 @@ const MainStack = () => {
   return (
     <MainStackNav.Navigator>
       <MainStackNav.Screen name="Details" component={TebApp}/>
-      <MainStackNav.Screen name="ChatDetails" component={HashTag}/>
+      <MainStackNav.Screen name="ChatDetails" component={ChatRoom}/>
     </MainStackNav.Navigator>
   );
 };
